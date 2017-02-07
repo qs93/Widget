@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>表單提交</title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/shared/_head.shtml"-->
+
+    <script src="/js/angular/angular.min.js"></script>
+    <script src="/js/angular/form.js"></script>
+
+</head>
+<body>
+    <!--#<!--#include file="/shared/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="../_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="/javascript">javascript</a>
+                        </li>
+                        <li>
+                            <a href="/javascript/angular">angular</a>
+                        </li>
+                        <li>
+                            表單提交
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row">
+                                    <xmp>
+                                        <!--主要插件-->
+                                        <script src="/js/angular/angular.min.js"></script>
+                                        <!--属性说明-->
+                                        ng-app:声明APP。每一个页面只能声明一个。
+                                        ng-controller:声明控制器。放在ng-app里面或者同级，可以声明多个
+                                        ng-repeat:绑定json。eg1(x in photo)按照json顺序。eg2(x in photo.slice().reverse())按照json倒序。
+                                    </xmp>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content" ng-app="MyApp">
+                                <form ng-controller="MyCtrl" id="MyForm" name="MyForm" novalidate ng-submit="MyForm.$valid && submit();">
+                                    <div class="form-group">
+                                        <label for="txtUserName">用戶名</label>
+                                        <input type="text" class="form-control" id="txtUserName" name="txtUserName" ng-model="txtUserName" placeholder="Enter UserName" required>
+                                        <span class="form-error-msg" ng-show="submitted && MyForm.txtUserName.$error.required">請輸入名稱。</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtEmail">電子郵件</label>
+                                        <input type="email" class="form-control" id="txtEmail" name="txtEmail" ng-model="txtEmail" placeholder="Enter email" required>
+                                        <span class="form-error-msg" ng-show="submitted && MyForm.txtEmail.$error.required">請輸入電子郵件。</span>
+                                        <span class="form-error-msg" ng-show="submitted && MyForm.txtEmail.$error.email">請輸入正確的電子郵件。</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtMobile">手機號碼</label>
+                                        <input type="text" class="form-control" id="txtMobile" name="txtMobile" ng-model="txtMobile" placeholder="Enter Mobile" required>
+                                        <span class="form-error-msg" ng-show="submitted && MyForm.txtMobile.$error.required">請輸入手機號碼。</span>
+                                        <span class="form-error-msg" ng-show="submitted && MyForm.txtMobile.$error.mobile">請輸入正確的手機號碼。</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtPassword">密碼</label>
+                                        <input type="password" class="form-control" id="txtPassword" name="txtPassword" ng-model="txtPassword" placeholder="Password" required>
+                                        <span class="form-error-msg" ng-show="submitted && MyForm.txtPassword.$error.required">密碼是必须的。</span>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Check me out
+                                        </label>
+                                    </div>
+                                    <button type="submit" ng-click="submitted=true" class="btn btn-default">
+                                        Submit
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>

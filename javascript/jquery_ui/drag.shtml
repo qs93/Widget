@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>拉動效果</title>
     <meta charset="utf-8" />
-    <!--#<!--#include file="/_head.shtml"-->
+    <!--#<!--#include file="/shared/_head.shtml"-->
 
     <script src="/js/jquery-ui/jquery-ui-v1.12.0.min.js"></script>
     <!--移動版UI,如不應用，移動版會失效-->
@@ -34,7 +34,7 @@
     </script>
 </head>
 <body>
-    <!--#<!--#include file="/_top.shtml"-->
+    <!--#<!--#include file="/shared/_top.shtml"-->
     <div class="ch-container">
         <div class="row">
             <!--#<!--#include file="../_left.shtml"-->
@@ -46,7 +46,7 @@
                             <a href="/javascript">javascript</a>
                         </li>
                         <li>
-                            <a href="/javascript/jquery_ui/">jquery_ui</a>
+                            <a href="/javascript/jquery_ui">jquery_ui</a>
                         </li>
                         <li>
                             拉動效果
@@ -62,23 +62,17 @@
                                     <a href="#" class="btn btn-setting btn-round btn-default">
                                         <i class="glyphicon glyphicon-cog"></i>
                                     </a>
-                                    <a href="#" class="btn btn-minimize btn-round btn-default">
-                                        <i class="glyphicon glyphicon-chevron-up"></i>
-                                    </a>
-                                    <a href="#" class="btn btn-close btn-round btn-default">
-                                        <i class="glyphicon glyphicon-remove"></i>
-                                    </a>
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
                                 </div>
                             </div>
                             <div class="box-content">
-                                <div class="row" style="padding-left:15px; padding-right:15px">
-                                    <textarea disabled="disabled" class="form-control" style="height:500px">
+                                <div class="row">
+                                    <xmp>
                                         <!--主要插件-->
                                         <script src="/js/jquery-ui/jquery-ui-v1.12.0.min.js"></script>
                                         <!--移動版UI,如不應用，移動版會失效-->
                                         <script src="/js/jquery-ui/jquery.ui.touch-punch.min.js"></script>
-                                        
-                                    </textarea>
+                                    </xmp>
                                 </div>
                             </div>
                         </div>
@@ -90,12 +84,7 @@
                             <div class="box-header well" data-original-title="">
                                 <h2><i class="glyphicon glyphicon-eye-open"></i>事例</h2>
                                 <div class="box-icon">
-                                    <a href="#" class="btn btn-minimize btn-round btn-default">
-                                        <i class="glyphicon glyphicon-chevron-up"></i>
-                                    </a>
-                                    <a href="#" class="btn btn-close btn-round btn-default">
-                                        <i class="glyphicon glyphicon-remove"></i>
-                                    </a>
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
                                 </div>
                             </div>
                             <div class="box-content">

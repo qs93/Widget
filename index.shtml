@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <title>Free HTML5 Bootstrap Admin Template</title>
-    <!--#<!--#include file="_head.shtml"-->
+    <!--#<!--#include file="/shared/_head.shtml"-->
 </head>
 <body>
-    <!--#<!--#include file="_top.shtml"-->
+    <!--#<!--#include file="/shared/_top.shtml"-->
     <div class="ch-container">
         <div class="row">
 

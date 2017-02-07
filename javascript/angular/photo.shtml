@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>基本语法</title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/shared/_head.shtml"-->
+
+    <script src="/js/angular/angular.min.js"></script>
+    <script src="/js/angular/photo.js"></script>
+
+</head>
+<body>
+    <!--#<!--#include file="/shared/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="../_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="/javascript">javascript</a>
+                        </li>
+                        <li>
+                            <a href="/javascript/angular">angular</a>
+                        </li>
+                        <li>
+                            照片显示
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row">
+                                    <xmp>
+<!--主要插件-->
+<script src="/js/angular/angular.min.js"></script>
+<!--属性说明-->
+ng-app:声明APP。每一个页面只能声明一个。
+ng-controller:声明控制器。放在ng-app里面或者同级，可以声明多个
+ng-repeat:绑定json。eg1(x in photo)按照json顺序。eg2(x in photo.slice().reverse())按照json倒序。
+                                    </xmp>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row" ng-app="PhotoWall">
+                                    <div class="photo-wall" ng-controller="PhotoCtrl">
+                                        <div ng-repeat="x in photo.slice().reverse()">
+                                            <img ng-src="{{x.src}}" title="{{x.title}}" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>
