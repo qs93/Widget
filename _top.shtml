@@ -1,0 +1,19 @@
+﻿<!--頭部導航 開始-->
+<div class="navbar navbar-default page-top-nav" role="navigation">
+    <div class="navbar-inner">
+        <button type="button" class="navbar-toggle pull-left animated flip">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <img alt="Logo" src="/images/logo.png" class="img-responsive logo" />
+        </a>
+        <ul class="collapse navbar-collapse nav navbar-nav top-menu">
+            <li><a href="#"><i class="glyphicon glyphicon-fire">Asp.Net</i></a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-leaf"></i>Javascript</a></li>
+        </ul>
+    </div>
+</div>
+<!--頭部導航 結束-->

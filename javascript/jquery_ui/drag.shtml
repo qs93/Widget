@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/_head.shtml"-->
+
+    <script src="/js/jquery-ui/jquery-ui-v1.12.0.min.js"></script>
+    <!--移動版UI,如不應用，移動版會失效-->
+    <script src="/js/jquery-ui/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $ball = $(".select-drag");  //需拉動的父級
+            var percentage = 0;
+            $("div.col-md-3", $ball).draggable({
+                cancel: "a.ui-icon", // 點擊一個圖標不會發起拖動
+                revert: "invalid", // 當不下降時，項目將回到初始位置
+                drag: function (event, ui) {
+                    var $li = $(this);
+                    $(".panel-drag").droppable({
+                        accept: $li,
+                        activeClass: false,
+                        drop: function (event, ui) {
+                            $(".panel-drag").append("<div class=\"col-md-3 col-sm-3 col-xs-6\">" + $li.html() + "</div>");  //把該DIV添加到面板中
+                        }
+                    });
+                },
+                containment: "document",
+                helper: "clone",//拖動時，原泡泡留在原地
+                cursor: "move"
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--#<!--#include file="/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="../_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="/javascript">javascript</a>
+                        </li>
+                        <li>
+                            <a href="/javascript/jquery_ui/">jquery_ui</a>
+                        </li>
+                        <li>
+                            拉動效果
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-minimize btn-round btn-default">
+                                        <i class="glyphicon glyphicon-chevron-up"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-close btn-round btn-default">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row" style="padding-left:15px; padding-right:15px">
+                                    <textarea disabled="disabled" class="form-control" style="height:500px">
+                                        <!--主要插件-->
+                                        <script src="/js/jquery-ui/jquery-ui-v1.12.0.min.js"></script>
+                                        <!--移動版UI,如不應用，移動版會失效-->
+                                        <script src="/js/jquery-ui/jquery.ui.touch-punch.min.js"></script>
+                                        
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-eye-open"></i>事例</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-minimize btn-round btn-default">
+                                        <i class="glyphicon glyphicon-chevron-up"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-close btn-round btn-default">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row select-drag">
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <a data-toggle="tooltip" title="6 new members." class="well top-block" href="#">
+                                            <i class="glyphicon glyphicon-user blue"></i>
+                                            <div>Test1</div>
+                                            <div>100</div>
+                                            <span class="notification">1</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <a data-toggle="tooltip" title="4 new pro members." class="well top-block" href="#">
+                                            <i class="glyphicon glyphicon-star green"></i>
+
+                                            <div>Test2</div>
+                                            <div>200</div>
+                                            <span class="notification green">2</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <a data-toggle="tooltip" title="$34 new sales." class="well top-block" href="#">
+                                            <i class="glyphicon glyphicon-shopping-cart yellow"></i>
+
+                                            <div>Test3</div>
+                                            <div>300</div>
+                                            <span class="notification yellow">3</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <a data-toggle="tooltip" title="12 new messages." class="well top-block" href="#">
+                                            <i class="glyphicon glyphicon-envelope red"></i>
+
+                                            <div>Test4</div>
+                                            <div>400</div>
+                                            <span class="notification red">4</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-left:15px; padding-right:15px">
+                                    <div class="panel-drag">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>

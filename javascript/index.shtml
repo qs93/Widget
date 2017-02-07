@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/_head.shtml"-->
+</head>
+<body>
+    <!--#<!--#include file="/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Forms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-edit"></i> Form Elements</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-minimize btn-round btn-default">
+                                        <i class="glyphicon glyphicon-chevron-up"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-close btn-round btn-default">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-content">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner panel-body ">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-edit"></i> Form Elements</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-minimize btn-round btn-default">
+                                        <i class="glyphicon glyphicon-chevron-up"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-close btn-round btn-default">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-content">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>
