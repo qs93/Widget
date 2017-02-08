@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>angular</title>
+    <title>jquery_ui</title>
     <meta charset="utf-8" />
     <!--#<!--#include file="/shared/_head.shtml"-->
 </head>
@@ -19,7 +19,7 @@
                             <a href="/javascript">javascript</a>
                         </li>
                         <li>
-                            angular
+                            jquery_ui
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,10 @@
+﻿<appSettings>
+  <add key="keepalive" value="10"/>
+  <add key="SmtpServer" value="smtp.gmail.com" />
+  <add key="EmailFrom" value="ablemobile.com@gmail.com" />
+  <add key="EmailPwd" value="Ab23001028" />
+  <add key="EmailPort" value="587" />
+  <add key="EnableSsl" value="true" />
+  <!--gmail.com ssl必須為true-->
+  <add key="EmailFormName" value="GFOOD" />
+</appSettings>
