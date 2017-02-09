@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jquery_ui</title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/shared/_head.shtml"-->
+</head>
+<body>
+    <!--#<!--#include file="/shared/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="../_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="/javascript">sql</a>
+                        </li>
+                        <li>
+                            sqlserver
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row code-content">
+                                    web.config:
+                                    <connectionStrings>
+                                        <add name="connStr" connectionString="server=localhost;User Id=root;password=sasa;database=bigline;Port=;" />
+                                    </connectionStrings>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>

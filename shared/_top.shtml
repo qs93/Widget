@@ -12,6 +12,7 @@
         </a>
         <ul class="collapse navbar-collapse nav navbar-nav top-menu">
             <li><a href="/net"><i class="glyphicon glyphicon-fire">Asp.Net</i></a></li>
+            <li><a href="/sql"><i class="glyphicon glyphicon-fire">Sql</i></a></li>
             <li><a href="/javascript"><i class="glyphicon glyphicon-leaf"></i>Javascript</a></li>
         </ul>
     </div>

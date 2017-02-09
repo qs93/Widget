@@ -1,10 +1,14 @@
 ﻿<appSettings>
-  <add key="keepalive" value="10"/>
-  <add key="SmtpServer" value="smtp.gmail.com" />
-  <add key="EmailFrom" value="ablemobile.com@gmail.com" />
-  <add key="EmailPwd" value="Ab23001028" />
-  <add key="EmailPort" value="587" />
-  <add key="EnableSsl" value="true" />
-  <!--gmail.com ssl必須為true-->
-  <add key="EmailFormName" value="GFOOD" />
+  <!--發件人郵箱-->
+  <add key="SendEmail" value="" />
+  <!--發件人郵箱密碼-->
+  <add key="SendPwd" value="" />
+  <!--發件人名稱-->
+  <add key="SendName" value="" />
+  <!--發件人郵箱SMTP服務器-->
+  <add key="SendSmtp" value="" />
+  <!--SMTP服務器端口-->
+  <add key="SendPort" value="0" />
+  <!--是否使用SSL加密(gmail.com ssl必須為true)-->
+  <add key="EnableSsl" value="1" />
 </appSettings>
