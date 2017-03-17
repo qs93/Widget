@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,6 +53,18 @@ public class JsonHelper
     public static void WriteFail(int resultcode = 500, string reason = "fail")
     {
         HttpContext.Current.Response.Write(Fail(resultcode, reason));
+    }
+    #endregion
+
+    #region 格式設置
+    /// <summary>
+    /// 時間格式
+    /// </summary>
+    /// <returns></returns>
+    /// 實現：JsonConvert.SerializeObject(obj,TimeConverter())
+    public static IsoDateTimeConverter TimeConverter()
+    {
+        return new IsoDateTimeConverter { DateTimeFormat = "yyyy-MM-dd HH:mm" };
     }
     #endregion
 }
