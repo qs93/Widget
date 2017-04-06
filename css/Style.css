@@ -42,12 +42,12 @@ xmp {
 
 /*Photo Wall Start*/
 .photo-wall {
-    padding-left:10px;
+    padding-left: 10px;
 }
 
     .photo-wall div {
         float: left;
-        margin:5px;
+        margin: 5px;
     }
 
         .photo-wall div img {
@@ -55,3 +55,15 @@ xmp {
             width: auto;
         }
 /*Photo Wall End*/
+
+/*code Start*/
+.code-msg {
+    padding: 10px 20px;
+    line-height: 22px;
+}
+
+    .code-msg .script {
+        font-weight: bold;
+        width: 100%;
+    }
+/*code End*/

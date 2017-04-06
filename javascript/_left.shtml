@@ -12,6 +12,9 @@
                         <li><a href="/javascript/jquery_ui/drag.shtml">eg1. 拖動效果</a></li>
                     </ul>
                 </li>
+                <li>
+                    <a href="/javascript/jquery/alert.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> jquery-ui</span></a>
+                </li>
                 <li class="nav-header">angular</li>
                 <li class="accordion">
                     <a href="#"><i class="glyphicon glyphicon-plus"></i><span> angular</span></a>

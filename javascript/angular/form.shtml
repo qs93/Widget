@@ -40,12 +40,10 @@
                                 </div>
                             </div>
                             <div class="box-content">
-                                <div class="row">
-                                    <xmp>
-                                        form屬性novalidate：去掉驗證提示信息的樣式（默認為居中彈窗效果）；
-                                        from屬性ng-submit：提交方法。事例為驗證成功&並且提交submit()方法；
-                                        自定義驗證：.directive("驗證名稱")；
-                                    </xmp>
+                                <div class="row code-msg">
+                                        form屬性novalidate：去掉驗證提示信息的樣式（默認為居中彈窗效果）；<br />
+                                        from屬性ng-submit：提交方法。事例為驗證成功&並且提交submit()方法；<br />
+                                        自定義驗證：.directive("驗證名稱")；<br />
                                 </div>
                             </div>
                         </div>

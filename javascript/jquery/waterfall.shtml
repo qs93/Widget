@@ -2,15 +2,26 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>基本语法</title>
+    <title>拉動效果</title>
     <meta charset="utf-8" />
     <!--#<!--#include file="/shared/_head.shtml"-->
-
-    <script src="/js/angular/angular.min.js"></script>
-    <script src="/js/angular/photo.js"></script>
-
+    <script src="/js/Jquery/alert.js" type="text/javascript"></script>
+    <script>
+        $(window).ready(function () {
+            alert("1");
+        });
+    </script>
 </head>
 <body>
+    <div class="myalert">
+        <div class="content">
+            內容提示
+        </div>
+        <div class="redirect">
+            <button class="btn btn-fixed">確定</button>
+            <button class="btn">返回</button>
+        </div>
+    </div>
     <!--#<!--#include file="/shared/_top.shtml"-->
     <div class="ch-container">
         <div class="row">
@@ -23,10 +34,10 @@
                             <a href="/javascript">javascript</a>
                         </li>
                         <li>
-                            <a href="/javascript/angular">angular</a>
+                            <a href="/javascript/jquery_ui">jquery_ui</a>
                         </li>
                         <li>
-                            照片显示
+                            拉動效果
                         </li>
                     </ul>
                 </div>
@@ -36,12 +47,15 @@
                             <div class="box-header well" data-original-title="">
                                 <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
                                 <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
                                     <!--#<!--#include file="/shared/_tool.shtml"-->
                                 </div>
                             </div>
                             <div class="box-content">
                                 <div class="row code-msg">
-                                        ng-repeat中的.slice().reverse()位倒序。
+
                                 </div>
                             </div>
                         </div>
@@ -51,22 +65,17 @@
                     <div class="box col-md-12">
                         <div class="box-inner">
                             <div class="box-header well" data-original-title="">
-                                <h2><i class="glyphicon glyphicon-eye-open"></i> 事例</h2>
+                                <h2><i class="glyphicon glyphicon-eye-open"></i>事例</h2>
                                 <div class="box-icon">
                                     <!--#<!--#include file="/shared/_tool.shtml"-->
                                 </div>
                             </div>
                             <div class="box-content">
-                                <div class="row" ng-app="MyWall">
-                                    <div class="photo-wall" ng-controller="MyCtrl">
-                                        <div ng-repeat="x in photo.slice().reverse()">
-                                            <img ng-src="{{x.src}}" title="{{x.title}}" />
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
+                    <!--/span-->
                 </div>
             </div>
             <!--內容 結束-->
