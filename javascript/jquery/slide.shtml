@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>拉動效果</title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/shared/_head.shtml"-->
+    <script src="/js/jquery/slide.js" type="text/javascript"></script>
+    <link href="/css/jquery/slide.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="myalert">
+        <div class="content">
+            內容提示
+        </div>
+        <div class="redirect">
+            <button class="btn btn-fixed">確定</button>
+            <button class="btn">取消</button>
+        </div>
+    </div>
+    <!--#<!--#include file="/shared/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="../_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="/javascript">javascript</a>
+                        </li>
+                        <li>
+                            <a href="/javascript/jquery_ui">jquery_ui</a>
+                        </li>
+                        <li>
+                            拉動效果
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row code-msg">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-eye-open"></i>事例</h2>
+                                <div class="box-icon">
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div id="slider">
+                                    <div class="slider-bg"></div>
+                                    <label class="slider-flag">>></label> <label class="slider-tip">拖动滑块验证</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>
+<script>
+        $(function () {
+        var slider = new SliderUnlock("#slider",{
+				successLabelTip : "欢迎访问素材家园"
+			},function(){
+				//alert("验证成功,即将跳转至素材家园首页");
+        	});
+        slider.init();
+    })
+</script>
