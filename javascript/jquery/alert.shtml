@@ -9,20 +9,20 @@
     <link href="/css/jquery/alert.css" type="text/css" rel="stylesheet" />
     <script>
         $(window).ready(function () {
-           confirm("22");
+           $("#myAlert").click(function(){
+               myalert("My Alert",function(){
+                   console.log("Alert成功");
+               });
+           });
+           $("#myConfirm").click(function(){
+               myconfirm("My Confirm",function(){
+                   console.log("Confirm成功");
+               });
+           });
         });
     </script>
 </head>
 <body>
-    <div class="myalert">
-        <div class="content">
-            內容提示
-        </div>
-        <div class="redirect">
-            <button class="btn btn-fixed">確定</button>
-            <button class="btn">取消</button>
-        </div>
-    </div>
     <!--#<!--#include file="/shared/_top.shtml"-->
     <div class="ch-container">
         <div class="row">
@@ -72,7 +72,9 @@
                                 </div>
                             </div>
                             <div class="box-content">
-                                <br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+                                    <button class="btn btn-default" id="myAlert">Alert</button>
+                                <button class="btn btn-default" id="myConfirm">Confirm</button>
+                                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                             </div>
                         </div>
                     </div>

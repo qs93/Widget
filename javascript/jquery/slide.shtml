@@ -88,7 +88,7 @@
                 //成功
         	});
         slider.init();
-    var slider2 = new SliderUnlock("#slider2",{
+        var slider2 = new SliderUnlock("#slider2",{
 				successLabelTip : "驗證成功1",
                 defaultIsOk:true
 			},function(){
