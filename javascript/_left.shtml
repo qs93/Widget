@@ -13,7 +13,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/javascript/jquery/alert.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> jquery-ui</span></a>
+                    <a href="/javascript/jquery/alert.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> alert</span></a>
+                </li>
+                <li>
+                    <a href="/javascript/jquery/slide.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> slide</span></a>
                 </li>
                 <li class="nav-header">angular</li>
                 <li class="accordion">

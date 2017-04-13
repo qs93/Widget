@@ -7,6 +7,7 @@
         var opts = {
             successLabelTip: "Successfully Verified",
             duration: 200,
+            defaultIsOk: false,
             swipestart: false,
             min: 0,
             max: $elm.width(),
@@ -43,7 +44,6 @@
 
     SliderUnlock.prototype.init = function () {
         var me = this;
-
         me.updateView();
         me.elm.find(".slider-flag").on("mousedown", function (event) {
             var e = event || window.event;
@@ -84,7 +84,7 @@
         //停止
         me.swipestart = false;
         //me.move();
-        if (me.index < me.max) {
+        if (me.index < me.max && !me.opts.defaultIsOk) {
             me.reset();
         }
     };
@@ -127,9 +127,8 @@
         }
         if (me.index + me.labelWidth + 2 == me.max && me.max > 0 && me.isOk) {
             //解锁默认操作
-            $('.slider-flag').unbind().next('.slider-tip').
+            me.elm.find('.slider-flag').unbind().next('.slider-tip').
             text(me.opts.successLabelTip).css({ 'color': '#fff' });
-
             me.success();
         }
         me.updateView();
@@ -141,9 +140,13 @@
      */
     SliderUnlock.prototype.updateView = function () {
         var me = this;
-
+        if (me.opts.defaultIsOk) {
+            me.index = me.max - me.labelWidth - 2;
+            me.elm.find('.slider-flag').unbind().next('.slider-tip').
+            text(me.opts.successLabelTip).css({ 'color': '#fff' });
+        }
         me.sliderBg.css('width', me.index);
-        me.elm.find(".slider-flag").css("left", me.index + "px")
+        me.elm.find(".slider-flag").css("left", me.index + "px");
     };
 
     /**
@@ -151,7 +154,6 @@
      */
     SliderUnlock.prototype.reset = function () {
         var me = this;
-
         me.index = 0;
         me.sliderBg.animate({ 'width': 0 }, me.opts.duration);
         me.elm.find(".slider-flag").animate({ left: me.index }, me.opts.duration)
