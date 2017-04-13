@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="box-content">
-                                    <button class="btn btn-default" id="myAlert">Alert</button>
+                                <button class="btn btn-default" id="myAlert">Alert</button>
                                 <button class="btn btn-default" id="myConfirm">Confirm</button>
                                 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                             </div>
