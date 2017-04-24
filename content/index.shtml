@@ -2,43 +2,24 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>自定義彈窗</title>
+    <title></title>
     <meta charset="utf-8" />
     <!--#<!--#include file="/shared/_head.shtml"-->
-    <script src="/js/jquery/alert.js" type="text/javascript"></script>
-    <link href="/css/jquery/alert.css" type="text/css" rel="stylesheet" />
-    <script>
-        $(window).ready(function () {
-           $("#myAlert").click(function(){
-               myalert("My Alert",function(){
-                   console.log("Alert成功");
-               });
-           });
-           $("#myConfirm").click(function(){
-               myconfirm("My Confirm",function(){
-                   console.log("Confirm成功");
-               });
-           });
-        });
-    </script>
 </head>
 <body>
     <!--#<!--#include file="/shared/_top.shtml"-->
     <div class="ch-container">
         <div class="row">
-            <!--#<!--#include file="../_left.shtml"-->
+            <!--#<!--#include file="_left.shtml"-->
             <!--內容 開始-->
             <div id="content" class="col-lg-10 col-sm-10">
                 <div>
                     <ul class="breadcrumb">
                         <li>
-                            <a href="/javascript">javascript</a>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="/javascript/jquery_ui">jquery_ui</a>
-                        </li>
-                        <li>
-                            拉動效果
+                            <a href="#">Forms</a>
                         </li>
                     </ul>
                 </div>
@@ -46,39 +27,47 @@
                     <div class="box col-md-12">
                         <div class="box-inner">
                             <div class="box-header well" data-original-title="">
-                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <h2><i class="glyphicon glyphicon-edit"></i> Form Elements</h2>
                                 <div class="box-icon">
                                     <a href="#" class="btn btn-setting btn-round btn-default">
                                         <i class="glyphicon glyphicon-cog"></i>
                                     </a>
-                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                    <a href="#" class="btn btn-minimize btn-round btn-default">
+                                        <i class="glyphicon glyphicon-chevron-up"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-close btn-round btn-default">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
                                 </div>
                             </div>
                             <div class="box-content">
-                                <div class="row code-msg">
 
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="box col-md-12">
-                        <div class="box-inner">
+                        <div class="box-inner panel-body ">
                             <div class="box-header well" data-original-title="">
-                                <h2><i class="glyphicon glyphicon-eye-open"></i>事例</h2>
+                                <h2><i class="glyphicon glyphicon-edit"></i> Form Elements</h2>
                                 <div class="box-icon">
-                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-minimize btn-round btn-default">
+                                        <i class="glyphicon glyphicon-chevron-up"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-close btn-round btn-default">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
                                 </div>
                             </div>
                             <div class="box-content">
-                                <button class="btn btn-default" id="myAlert">Alert</button>
-                                <button class="btn btn-default" id="myConfirm">Confirm</button>
-                                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
                             </div>
                         </div>
                     </div>
-                    <!--/span-->
                 </div>
             </div>
             <!--內容 結束-->

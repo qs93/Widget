@@ -1,0 +1,15 @@
+﻿<!--左側導航 開始-->
+<div class="col-sm-2 col-lg-2">
+    <div class="sidebar-nav">
+        <div class="nav-canvas">
+            <div class="nav-sm nav nav-stacked">
+            </div>
+            <ul class="nav nav-pills nav-stacked main-menu">
+                <li>
+                    <a href="/content/loveshape.shtml"><i class="glyphicon glyphicon-asterisk"></i><span>心形</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--左側導航 結束-->

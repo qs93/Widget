@@ -5,6 +5,9 @@
             <div class="nav-sm nav nav-stacked">
             </div>
             <ul class="nav nav-pills nav-stacked main-menu">
+                <li class="nav-header">Javascript</li>
+                <li><a href="/javascript/matrix.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> 矩陣</span></a></li>
+                <li><a href="/javascript/signature.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> 電子簽名</span></a></li>
                 <li class="nav-header">Jqery</li>
                 <li class="accordion">
                     <a href="#"><i class="glyphicon glyphicon-plus"></i><span> jquery-ui</span></a>
@@ -12,19 +15,14 @@
                         <li><a href="/javascript/jquery_ui/drag.shtml">eg1. 拖動效果</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="/javascript/jquery/alert.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> alert</span></a>
-                </li>
-                <li>
-                    <a href="/javascript/jquery/slide.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> slide</span></a>
-                </li>
+                <li><a href="/javascript/jquery/alert.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> 自定義彈窗</span></a></li>
+                <li><a href="/javascript/jquery/slide.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> 滑動驗證</span></a></li>
                 <li class="nav-header">angular</li>
-                <li class="accordion">
-                    <a href="#"><i class="glyphicon glyphicon-plus"></i><span> angular</span></a>
-                    <ul class="nav nav-pills nav-stacked">
-                        <li><a href="/javascript/angular/form.shtml">表單提交</a></li>
-                        <li><a href="/javascript/angular/photo.shtml">照片墙</a></li>
-                    </ul>
+                <li><a href="/javascript/angular/form.shtml"><i class="glyphicon glyphicon-asterisk"></i>表單提交</a></li>
+                <li><a href="/javascript/angular/photo.shtml"><i class="glyphicon glyphicon-asterisk"></i>照片墙</a></li>
+                <li class="nav-header">cropper</li>
+                <li>
+                    <a href="/javascript/cropper.shtml"><i class="glyphicon glyphicon-asterisk"></i><span> 截圖</span></a>
                 </li>
             </ul>
         </div>

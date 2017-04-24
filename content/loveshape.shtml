@@ -2,18 +2,18 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>拉動驗證</title>
+    <title>拉動效果</title>
     <meta charset="utf-8" />
     <!--#<!--#include file="/shared/_head.shtml"-->
-    <script src="/js/Jquery/slide.js" type="text/javascript"></script>
-    <link href="/css/jquery/slide.css" type="text/css" rel="stylesheet" />
-
+    <link href="/css/content/loveshape.css" type="text/css" rel="stylesheet" />
+    <script>
+    </script>
 </head>
 <body>
     <!--#<!--#include file="/shared/_top.shtml"-->
     <div class="ch-container">
         <div class="row">
-            <!--#<!--#include file="../_left.shtml"-->
+            <!--#<!--#include file="_left.shtml"-->
             <!--內容 開始-->
             <div id="content" class="col-lg-10 col-sm-10">
                 <div>
@@ -59,16 +59,41 @@
                                 </div>
                             </div>
                             <div class="box-content">
-                                <div id="slider" class="slider">
-                                    <div class="slider-bg"></div>
-                                    <label class="slider-flag">>></label>
-                                    <label class="slider-tip">拖动滑块验证</label>
-                                </div>
-                                <div id="slider2" class="slider">
-                                    <div class="slider-bg"></div>
-                                    <label class="slider-flag">>></label>
-                                    <label class="slider-tip">拖动滑块验证</label>
-                                </div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+                                <div class="el"></div>
+
+                                <p class="elo">( ͡° ͜ʖ ͡°) __ elo.</p>
+                                <p class="luvya">( ͡° ͜ʖ ͡°) __ luvya.</p>
                             </div>
                         </div>
                     </div>
@@ -80,20 +105,3 @@
     </div>
 </body>
 </html>
-<script>
-        $(function () {
-        var slider = new SliderUnlock("#slider",{
-				successLabelTip : "驗證成功"
-			},function(){
-                //成功
-        	});
-        slider.init();
-        var slider2 = new SliderUnlock("#slider2",{
-				successLabelTip : "驗證成功1",
-                defaultIsOk:true
-			},function(){
-                //成功
-        	});
-        slider2.init();
-    })
-</script>
