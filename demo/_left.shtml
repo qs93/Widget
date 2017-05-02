@@ -16,6 +16,7 @@
                         <li><a href="/demo/sidebar-transitions/index.html" target="_blank"><i class="glyphicon glyphicon-asterisk"></i><span> 边栏过渡效果</span></a></li>
                         <li><a href="/demo/slice-box/index.html" target="_blank"><i class="glyphicon glyphicon-asterisk"></i><span> 图片滑块效果</span></a></li>
                         <li><a href="/demo/three-dimensional/index.html" target="_blank"><i class="glyphicon glyphicon-asterisk"></i><span> 立方体</span></a></li>
+                        <li><a href="/demo/three-dimensional2/index.html" target="_blank"><i class="glyphicon glyphicon-asterisk"></i><span> 立方体2</span></a></li>
                         <li><a href="/demo/fold-the-photo/index.html" target="_blank"><i class="glyphicon glyphicon-asterisk"></i><span> 折叠图片切换</span></a></li>
                         <li><a href="/demo/circle-picture/index.html" target="_blank"><i class="glyphicon glyphicon-asterisk"></i><span> 圓圈圖片</span></a></li>
                     </ul>
