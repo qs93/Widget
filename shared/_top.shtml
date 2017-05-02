@@ -15,6 +15,7 @@
             <li><a href="/sql"><i class="glyphicon glyphicon-fire">Sql</i></a></li>
             <li><a href="/javascript"><i class="glyphicon glyphicon-leaf"></i>Javascript</a></li>
             <li><a href="/content"><i class="glyphicon glyphicon-leaf"></i>css</a></li>
+            <li><a href="/demo"><i class="glyphicon glyphicon-leaf"></i>demo</a></li>
         </ul>
     </div>
 </div>
