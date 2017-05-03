@@ -8,6 +8,9 @@
                 <li>
                     <a href="/content/loveshape.shtml"><i class="glyphicon glyphicon-asterisk"></i><span>心形</span></a>
                 </li>
+                <li>
+                    <a href="/content/menu.shtml"><i class="glyphicon glyphicon-asterisk"></i><span>菜單樣式</span></a>
+                </li>
             </ul>
         </div>
     </div>

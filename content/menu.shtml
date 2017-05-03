@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>菜單樣式</title>
+    <meta charset="utf-8" />
+    <!--#<!--#include file="/shared/_head.shtml"-->
+    <link href="/css/content/menu.css" type="text/css" rel="stylesheet" />
+    <script>
+    </script>
+</head>
+<body>
+    <!--#<!--#include file="/shared/_top.shtml"-->
+    <div class="ch-container">
+        <div class="row">
+            <!--#<!--#include file="_left.shtml"-->
+            <!--內容 開始-->
+            <div id="content" class="col-lg-10 col-sm-10">
+                <div>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="/css">css</a>
+                        </li>
+                        <li>
+                            菜單樣式
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-th-list"></i> 說明</h2>
+                                <div class="box-icon">
+                                    <a href="#" class="btn btn-setting btn-round btn-default">
+                                        <i class="glyphicon glyphicon-cog"></i>
+                                    </a>
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="row code-msg">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-12">
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><i class="glyphicon glyphicon-eye-open"></i>事例</h2>
+                                <div class="box-icon">
+                                    <!--#<!--#include file="/shared/_tool.shtml"-->
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div class="container">
+                                    <nav class="menu-1">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-2">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-3">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-4">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-5">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-6">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-7">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-8">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                                <div class="container">
+                                    <nav class="menu-9">
+                                        <div>
+                                            <button type="button">Menu</button>
+                                            <ul>
+                                                <li><a href="#">home</a></li>
+                                                <li><a href="#">contact</a></li>
+                                                <li><a href="#">about</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+            </div>
+            <!--內容 結束-->
+        </div>
+    </div>
+</body>
+</html>

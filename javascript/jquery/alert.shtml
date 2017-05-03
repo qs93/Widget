@@ -35,10 +35,7 @@
                             <a href="/javascript">javascript</a>
                         </li>
                         <li>
-                            <a href="/javascript/jquery_ui">jquery_ui</a>
-                        </li>
-                        <li>
-                            拉動效果
+                            自定義彈窗
                         </li>
                     </ul>
                 </div>

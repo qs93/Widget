@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>拉動效果</title>
+    <title>心形</title>
     <meta charset="utf-8" />
     <!--#<!--#include file="/shared/_head.shtml"-->
     <link href="/css/content/loveshape.css" type="text/css" rel="stylesheet" />
@@ -19,13 +19,10 @@
                 <div>
                     <ul class="breadcrumb">
                         <li>
-                            <a href="/javascript">javascript</a>
+                            <a href="/content">css</a>
                         </li>
                         <li>
-                            <a href="/javascript/jquery_ui">jquery_ui</a>
-                        </li>
-                        <li>
-                            拉動效果
+                            心形
                         </li>
                     </ul>
                 </div>
